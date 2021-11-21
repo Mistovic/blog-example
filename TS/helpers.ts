@@ -12,7 +12,7 @@ export function displayPosts(element: HTMLDivElement, posts: Array<Post>, render
 export function findPost(id: number, posts: Array<Post>): Post {
     let foundPost = null;
     for (let post of posts) {
-        if (id == post.ID) {
+        if (id === post.ID) {
             foundPost = post;
             break;
         }

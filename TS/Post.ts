@@ -32,7 +32,6 @@ export class Post {
         let dateAll = hour + ':' + minutes + ' ' + day + '.' + month + '.' + year;
         this.date = dateAll;
         this.comments = [];
-
     }
 
 
